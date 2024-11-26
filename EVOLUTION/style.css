@@ -1,0 +1,39 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    font-size: 50px;
+    margin-top: 10px;
+    z-index: 2;
+    position: relative;
+    font-family: 'roboto', sans-serif;
+}
+
+.logo-bird {
+    width: 40px;
+    height: 40px;
+    background: url('origami.jpg') no-repeat center center;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -7px;
+    margin-left: 0px;
+    margin-right: 3px;
+}
+
+#title.loaded {
+    color: white;
+}
+
+#contact-info {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
